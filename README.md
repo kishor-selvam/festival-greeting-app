@@ -2,7 +2,7 @@
 
 ## Screenshots
 
-> Live: [https://kishor-selvam.io/festival-greeting-app/](https://kishor-selvam.io/festival-greeting-app/)
+> Live: [https://kishor-selvam.github.io/festival-greeting-app/](https://kishor-selvam.github.io/festival-greeting-app/)
 
 
 #### LICENSE: MIT
