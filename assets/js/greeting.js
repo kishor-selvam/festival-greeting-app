@@ -13,5 +13,5 @@ if (Name) {
   let userName = document.querySelector("#greeternameid");
   userName.textContent = Name;
 } else {
-  window.location.href = "/";
+  window.location.href = "/festival-greeting-app";
 }
