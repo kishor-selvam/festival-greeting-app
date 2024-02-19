@@ -1,19 +1,34 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/festival-app.png"
+      type="image/x-icon"
+    />
+    <meta name="description" content="Free Festival Greeting-App" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, TailWindCss" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- TailwindCss -->
-    <link rel="stylesheet" href="./assets/css/main.css">
-    <title>Vite App</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <title>Festival-App</title>
   </head>
-  <body>
-    <div id="app">
-      <div class="text-red-500">
-        Kishor
-      </div>
+  <body class="bg-gradient-to-r from-blue-800 to-indigo-900 w-full">
+    <div class="flex items-center justify-center h-screen w-full">
+      <form action="" class="bg-white p-10 w-96 rounded">
+        <input
+          type="text"
+          placeholder="Enter Your Name!"
+          class="bg-gray-200 py-2 px-3 rounded outline-none block w-full"
+          autofocus
+          required
+        />
+        <button class="bg-cyan-500 hover:bg-cyan-600 text-white py-2 px-3 rounded w-full mt-6">
+          Create your greeting
+        </button>
+      </form>
     </div>
   </body>
 </html>
